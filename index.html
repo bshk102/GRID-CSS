@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GRID CSS</title>
+</head>
+<body>
+    <h1>GRID Layout - Определние сетки</h1>
+    <div class="grid">
+        <div class="grid__body">
+            <div class="grid__item">Подстраивается под содержимое, ограничивается 300px (grid-template-columns: fit-content(300px) minmax(150px, 200px) auto;)</div>
+            <div class="grid__item">2</div>
+            <div class="grid__item">Подстраивается под содержимое (auto) Lorem ipsum dolor sit amet consectetur adipisicing elit. Error magnam omnis debitis nesciunt ea? Esse, neque repudiandae blanditiis itaque, excepturi vero fugiat amet ad sapiente placeat sint unde corporis nulla!</div>
+            <div class="grid__item">4</div>
+            <div class="grid__item">5</div>
+            <div class="grid__item">6</div>
+        </div>
+        <h2>Имена областей</h2>
+        <div class="grid-wrapper">
+            <header class="grid-header">
+                Шапка
+            </header>
+            <aside class="grid-side">
+                Сайдбар
+            </aside>
+            <main class="grid-content">
+                Контент
+            </main>
+        </div>
+        <h2>Неявная сетка</h2>
+    </div>
+</body>
+</html>
